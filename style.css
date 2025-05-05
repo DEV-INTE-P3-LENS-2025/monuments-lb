@@ -1,7 +1,14 @@
+/* ---------- Variables ---------- */
+
 :root {
     --black: #1E1E1E;
     --white: #FFFFFF;
+
+    --y_gap: 35px;
 }
+
+
+/* ---------- CSS Reset ---------- */
 
 *,
 *::before,
@@ -65,4 +72,126 @@ a {
 #root,
 #__next {
     isolation: isolate;
+}
+
+
+/* ---------- Main ---------- */
+
+body {
+    color: var(--black);
+    text-align: center;
+
+    & h1 {
+        text-transform: uppercase;
+        padding: var(--y_gap) 0;
+        font-size: 3rem;
+    }
+
+    & main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        & #main_desc {
+            text-decoration: underline;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        & #img_cont {
+            display: flex;
+            width: 100%;
+            margin: var(--y_gap) 0;
+
+            & .monument {
+                display: flex;
+                flex-direction: column;
+                row-gap: var(--y_gap);
+                width: 20%;
+
+                & button {
+                    background-color: var(--black);
+                    color: var(--white);
+                    padding: 10px 30px;
+                    width: max-content;
+                    font-size: min(3vw, 1rem);
+                    border-radius: 5px;
+                    cursor: pointer;
+                    align-self: center;
+
+                    &:hover {
+                        scale: 1.1;
+                        box-shadow: rgba(30, 30, 30, 40%) 5px 5px 5px;
+                        transition: all 0.3s ease-in-out;
+                    }
+
+                    &:not(:hover) {
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+
+                & figure {
+                    position: relative;
+                    aspect-ratio: 1;
+                    overflow: hidden;
+                    border: var(--black) 1px solid;
+
+                    & img {
+                        min-height: 100%;
+                        margin: auto;
+                        position: absolute;
+                        top: 0; right: -50%; bottom: 0; left: -50%;
+                        object-fit: cover;
+                        cursor: pointer;
+                        scale: 1.1;
+                        transition: all 0.3s ease-in-out;
+                    }
+
+                    & .ob_pos {
+                        object-position: 0 3vw;
+                    }
+
+                    & .greyscale {
+                        scale: 1.0;
+                        filter: grayscale(75%);
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+            }
+        }
+
+        & #desc_cont {
+            display: grid;
+            grid-template-rows: 35% 20% 45%;
+            background-color: var(--black);
+            color: var(--white);
+            min-height: 200px;
+            padding: 15px 35px;
+            text-align: left;
+
+            & h2 {
+                font-size: 2.25rem;
+            }
+
+            & #place {
+                font-size: 1.2rem;
+                font-weight: 200;
+            }
+            
+            & #desc {
+                font-size: 0.9rem;
+                font-weight: 200;
+            }
+        }
+
+        & #map_cont  {
+            background-color: var(--black);
+            padding: 0 0 var(--y_gap) 0;
+
+            & iframe {
+                width: 85%;
+                height: 600px
+            }
+        }
+    }
 }

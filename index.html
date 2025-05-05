@@ -1,22 +1,62 @@
 <!DOCTYPE html>
 <html lang="fr">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Les monuments</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-</head>
-
-<body>
-    <header>
-        <h1>Les monuments</h1>
-    </header>
-    <script type="text/javascript" src="script.js"></script>
-</body>
-
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Les monuments</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    </head>
+    <body>
+        <header>
+            <h1>Les monuments</h1>
+        </header>
+        <main>
+            <p id="main_desc">Cliquez sur un monument ou sur son bouton pour obtenir une description</p>
+            <section id="img_cont">
+                <section class="monument">
+                    <button onclick="change_content(1)">Pyramide de Gizeh</button>
+                    <figure>
+                        <img src="./images/1.avif" alt="Pyramide de Gizeh" title="La Grande Pyramide de Gizeh" onclick="change_content(1)" class="mnmt_img ob_pos">
+                    </figure>
+                </section>
+                <section class="monument">
+                    <button onclick="change_content(2)">Machu Picchu</button> <!-- Easter Egg -->
+                    <figure>
+                        <img src="./images/2.avif" alt="Machu Picchu" title="Machu Picchu" onclick="change_content(2)" class="mnmt_img">
+                    </figure>
+                </section>
+                <section class="monument">
+                    <button onclick="change_content(3)">Porte de Brandeburg</button>
+                    <figure>
+                        <img src="./images/3.avif" alt="Porte de Brandeburg" title="Porte de Brandeburg" onclick="change_content(3)" class="mnmt_img">
+                    </figure>
+                </section>
+                <section class="monument">
+                    <button onclick="change_content(4)">Opéra de Sydney</button>
+                    <figure>
+                        <img src="./images/4.avif" alt="Opéra de Sydney" title="Opéra de Sydney" onclick="change_content(4)" class="mnmt_img">
+                    </figure>
+                </section>
+                <section class="monument">
+                    <button onclick="change_content(5)">Tour Eiffel</button>
+                    <figure>
+                        <img src="./images/5.avif" alt="Tour Eiffel" title="Tour Eiffel" onclick="change_content(5)" class="mnmt_img">
+                    </figure>
+                </section>
+            </section>
+            <section id="desc_cont">
+                <h2 id="mnmt_name"></h2>
+                <p id="place"></p>
+                <p id="desc"></p>
+            </section>
+            <section id="map_cont">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.339301213525!2d31.132635375111906!3d29.97688346642082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584587ac8f291b%3A0x810c2f3fa2a52424!2sThe%20Great%20Pyramid%20of%20Giza!5e0!3m2!1sen!2sfr!4v1746449537853!5m2!1sen!2sfr" frameborder="0" id="map"></iframe>
+            </section>
+        </main>    
+        <script type="text/javascript" src="script.js"></script>
+    </body>
 </html>
