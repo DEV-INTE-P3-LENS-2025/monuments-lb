@@ -17,11 +17,15 @@ function change_content(num) {
     emphasis(num);
 }
 
-fetch('./data.json')
+fetch('./data.json')         // MODIFICATIONS POUR APRES
 .then(response => response.json())
 .then(data => {
     json_data = Object.values(data)
-    change_content(3)
+    let json_length = json_data.length;
+    // A CHANGER MATH RANDOM * 5 PAR MATH RANDOM * json_length
+    // change_content(Math.ceil(Math.random()*json_length))
+    change_content(Math.ceil(Math.random()*5))
+    // A CHANGER MATH RANDOM * 5 PAR MATH RANDOM * json_length
 })
 .catch(error => {
     console.error('Erreur lors du fetch :', error)
@@ -48,3 +52,14 @@ function emphasis(num) {
         }
     }
 }
+
+function change_case(cont, num) { // change le contenu de du container cont par le contenu de l'objet json monument*num* (bouton + img)
+
+}
+
+// order : random avec une table qui prend un nombre random et qui l'enlève de la liste
+// sort : bouton on clique pls fois pour cycle entre les choix
+// filter : input liste pays des monuments
+// liste pays : from all elements in json append pays when not in table
+// clic mnmt : conduit vers la desc + map
+// font size : clamp or w/ media queries

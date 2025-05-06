@@ -89,7 +89,6 @@ body {
 
     & main {
         display: flex;
-        justify-content: center;
         flex-direction: column;
 
         & #main_desc {
@@ -100,21 +99,23 @@ body {
 
         & #img_cont {
             display: flex;
-            width: 100%;
+            align-self: center;
+            width: 95%;
             margin: var(--y_gap) 0;
+            gap: 2%;
 
             & .monument {
                 display: flex;
                 flex-direction: column;
-                row-gap: var(--y_gap);
-                width: 20%;
+                row-gap: 20px;
+                width: 18%;
 
                 & button {
                     background-color: var(--black);
                     color: var(--white);
                     padding: 10px 30px;
                     width: max-content;
-                    font-size: min(3vw, 1rem);
+                    font-size: min(3vw, 0.9rem);
                     border-radius: 5px;
                     cursor: pointer;
                     align-self: center;
@@ -165,8 +166,7 @@ body {
             flex-direction: column;
             background-color: var(--black);
             color: var(--white);
-            min-height: 200px;
-            padding: 15px 35px;
+            padding: 15px 2.5%;
             text-align: left;
 
             & h2 {
@@ -198,10 +198,16 @@ body {
 
         & #map_cont  {
             background-color: var(--black);
-            padding: 0 0 var(--y_gap) 0;
+            padding: 10px 0 var(--y_gap) 0;
+            
+            & h2 {
+                color: var(--white);
+                font-size: 2.25rem;
+                padding: 10px 0;
+            }
 
             & iframe {
-                width: 85%;
+                width: 90%;
                 height: 600px
             }
         }

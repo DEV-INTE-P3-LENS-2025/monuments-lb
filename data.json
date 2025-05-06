@@ -33,5 +33,110 @@
         "city": "Paris,",
         "desc": "Dominant la ville de Paris depuis plus d'un siècle, la Tour Eiffel est un symbole mondialement reconnu de la France. Construite par l'ingénieur Gustave Eiffel à l'occasion de l'Exposition universelle de 1889, elle devait initialement être démontée après l'événement, mais elle fut finalement conservée et est devenue un monument emblématique. Haute de 330 mètres avec ses antennes actuelles, elle fut longtemps la plus haute structure du monde. Entièrement composée de fer puddlé, elle étonne par sa légèreté apparente malgré sa masse imposante. Chaque année, des millions de visiteurs montent à ses différents étages pour admirer des vues spectaculaires sur la capitale, de jour comme de nuit. Elle incarne le génie technique, l'audace artistique et l'élégance parisienne.",
         "image": "./images/5.avif"
+    },
+    "monument6": {
+        "name": "Statue de la Liberté",
+        "country": "États-Unis",
+        "city": "New York",
+        "desc": "Symbole de liberté et de démocratie, la Statue de la Liberté a été offerte par la France aux États-Unis en 1886...",
+        "image": "./images/6.avif"
+    },
+    "monument7": {
+        "name": "Taj Mahal",
+        "country": "Inde",
+        "city": "Agra",
+        "desc": "Construit au XVIIe siècle par l'empereur moghol Shah Jahan en mémoire de son épouse, le Taj Mahal est un chef-d'œuvre d'architecture moghole...",
+        "image": "./images/7.avif"
+    },
+    "monument8": {
+        "name": "Colisée",
+        "country": "Italie",
+        "city": "Rome",
+        "desc": "Le Colisée, amphithéâtre romain emblématique, a accueilli des combats de gladiateurs et spectacles publics depuis sa construction en 80 ap. J.-C...",
+        "image": "./images/8.avif"
+    },
+    "monument9": {
+        "name": "Christ Rédempteur",
+        "country": "Brésil",
+        "city": "Rio de Janeiro",
+        "desc": "Cette immense statue du Christ, perchée sur le mont Corcovado, est l'un des symboles du Brésil et surplombe majestueusement la baie de Rio...",
+        "image": "./images/9.avif"
+    },
+    "monument10": {
+        "name": "Château de Neuschwanstein",
+        "country": "Allemagne",
+        "city": "Schwangau",
+        "desc": "Inspiré des contes de fées, ce château bavarois construit au XIXe siècle par Louis II est l'un des plus célèbres au monde...",
+        "image": "./images/10.avif"
+    },
+    "monument11": {
+        "name": "Angkor Wat",
+        "country": "Cambodge",
+        "city": "Siem Reap",
+        "desc": "Angkor Wat est le plus vaste complexe religieux du monde et un symbole national du Cambodge, construit au XIIe siècle par l'empire khmer...",
+        "image": "./images/11.avif"
+    },
+    "monument12": {
+        "name": "Moai de l'île de Pâques",
+        "country": "Chili",
+        "city": "Île de Pâques",
+        "desc": "Les Moai sont d'énigmatiques statues monumentales sculptées par le peuple Rapa Nui, qui veillent sur cette île isolée du Pacifique Sud...",
+        "image": "./images/12.avif"
+    },
+    "monument13": {
+        "name": "Alhambra",
+        "country": "Espagne",
+        "city": "Grenade",
+        "desc": "L'Alhambra est un palais fortifié andalou aux influences islamiques, réputé pour la finesse de son architecture et ses jardins splendides...",
+        "image": "./images/13.avif"
+    },
+    "monument14": {
+        "name": "Stonehenge",
+        "country": "Royaume-Uni",
+        "city": "Wiltshire",
+        "desc": "Mystérieux cercle de pierres dressées datant du Néolithique, Stonehenge reste une énigme archéologique fascinante...",
+        "image": "./images/14.avif"
+    },
+    "monument15": {
+        "name": "Mont-Saint-Michel",
+        "country": "France",
+        "city": "Normandie",
+        "desc": "Le Mont-Saint-Michel est une abbaye médiévale bâtie sur un îlot rocheux, accessible à marée basse, et un site majeur de pèlerinage...",
+        "image": "./images/15.avif"
+    },
+    "monument16": {
+        "name": "Palais de Potala",
+        "country": "Chine",
+        "city": "Lhassa",
+        "desc": "Ancienne résidence du Dalaï-lama, le palais de Potala surplombe majestueusement Lhassa et symbolise le bouddhisme tibétain...",
+        "image": "./images/16.avif"
+    },
+    "monument17": {
+        "name": "Petra",
+        "country": "Jordanie",
+        "city": "Wadi Musa",
+        "desc": "Petra, ancienne cité nabatéenne taillée dans la roche rose, est célèbre pour son trésor, son théâtre et ses tombeaux monumentaux...",
+        "image": "./images/17.avif"
+    },
+    "monument18": {
+        "name": "Cathédrale Saint-Basile",
+        "country": "Russie",
+        "city": "Moscou",
+        "desc": "Avec ses coupoles colorées et sa silhouette unique, la cathédrale Saint-Basile trône fièrement sur la place Rouge de Moscou...",
+        "image": "./images/18.avif"
+    },
+    "monument19": {
+        "name": "Burj Khalifa",
+        "country": "Émirats arabes unis",
+        "city": "Dubaï",
+        "desc": "Le Burj Khalifa est la plus haute tour du monde, culminant à plus de 828 mètres, symbole de la modernité et de la démesure de Dubaï...",
+        "image": "./images/19.avif"
+    },
+    "monument20": {
+        "name": "Sagrada Família",
+        "country": "Espagne",
+        "city": "Barcelone",
+        "desc": "Chef-d'œuvre inachevé de l'architecte Antoni Gaudí, la Sagrada Família est une basilique unique alliant foi, nature et imagination architecturale...",
+        "image": "./images/20.avif"
     }
 }
