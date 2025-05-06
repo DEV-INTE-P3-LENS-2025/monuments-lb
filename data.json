@@ -1,0 +1,37 @@
+{
+    "monument1": {
+        "name": "La Grande Pyramide de Gizeh",
+        "country": "Égypte",
+        "city": "Gizeh,",
+        "desc": "Située sur le plateau de Gizeh, près du Caire, la Grande Pyramide est l'un des monuments les plus emblématiques de l'Égypte ancienne et du monde entier. Construite vers 2 560 av. J.-C. pour servir de tombeau au pharaon Khéops, elle était à l'origine haute de près de 147 mètres, ce qui en faisait la plus haute construction humaine pendant près de 4 000 ans. Composée de millions de blocs de pierre pesant chacun plusieurs tonnes, la pyramide impressionne encore aujourd'hui par sa précision et son gigantisme. Elle est entourée de deux autres pyramides majeures et du célèbre Sphinx, formant un ensemble archéologique unique qui continue de fasciner archéologues et visiteurs.",
+        "image": "./images/1.avif"
+    },
+    "monument2": {
+        "name": "Machu Picchu",
+        "country": "Pérou",
+        "city": "Cusco,",
+        "desc": "Le Machu Picchu est une ancienne cité inca perchée à environ 2 430 mètres d'altitude dans la cordillère des Andes, au Pérou. Redécouverte en 1911 par l'explorateur Hiram Bingham, cette cité mystique, longtemps restée cachée aux yeux du monde, offre un témoignage exceptionnel de la civilisation inca. On y trouve des temples, des terrasses agricoles, des fontaines et des bâtiments de pierre finement assemblés sans mortier. Son emplacement spectaculaire, entouré de montagnes escarpées et de forêts tropicales, ajoute à son mystère et à sa beauté. Le Machu Picchu est aujourd'hui classé au patrimoine mondial de l'UNESCO et considéré comme l'une des sept nouvelles merveilles du monde.",
+        "image": "./images/2.avif"
+    },
+    "monument3": {
+        "name": "Porte de Brandebourg",
+        "country": "Allemagne",
+        "city": "Berlin,",
+        "desc": "Située à Berlin, la Porte de Brandebourg est l'un des symboles les plus forts de l'histoire allemande et européenne. Érigée entre 1788 et 1791 dans un style néoclassique inspiré des monuments de la Grèce antique, elle marquait autrefois l'entrée de la ville. Couronnée par le quadrige, un char tiré par quatre chevaux, elle est devenue le théâtre de nombreux événements historiques majeurs. Pendant la guerre froide, elle se trouvait dans la zone séparant Berlin-Est et Berlin-Ouest, au pied du Mur de Berlin, et symbolisait alors la division du pays. Après la chute du Mur en 1989, elle est redevenue un puissant symbole de paix, de liberté et de réunification.",
+        "image": "./images/3.avif"
+    },
+    "monument4": {
+        "name": "Opéra de Sydney",
+        "country": "Australie",
+        "city": "Sydney,",
+        "desc": "L'Opéra de Sydney, situé sur la baie de Sydney en Australie, est l'un des exemples les plus remarquables de l'architecture moderne du XXe siècle. Conçu par l'architecte danois Jørn Utzon, il a été inauguré en 1973 après plus d'une décennie de travaux complexes. Sa silhouette audacieuse, formée de coques blanches évoquant des voiles ou des coquillages, s'intègre harmonieusement dans le paysage maritime et attire chaque année des millions de visiteurs. L'opéra abrite plusieurs salles de spectacle et accueille une grande variété d'événements artistiques : opéras, concerts, pièces de théâtre et ballets. Classé au patrimoine mondial de l'UNESCO, il incarne la créativité, la culture et l'ouverture australiennes.",
+        "image": "./images/4.avif"
+    },
+    "monument5": {
+        "name": "Tour Eiffel",
+        "country": "France",
+        "city": "Paris,",
+        "desc": "Dominant la ville de Paris depuis plus d'un siècle, la Tour Eiffel est un symbole mondialement reconnu de la France. Construite par l'ingénieur Gustave Eiffel à l'occasion de l'Exposition universelle de 1889, elle devait initialement être démontée après l'événement, mais elle fut finalement conservée et est devenue un monument emblématique. Haute de 330 mètres avec ses antennes actuelles, elle fut longtemps la plus haute structure du monde. Entièrement composée de fer puddlé, elle étonne par sa légèreté apparente malgré sa masse imposante. Chaque année, des millions de visiteurs montent à ses différents étages pour admirer des vues spectaculaires sur la capitale, de jour comme de nuit. Elle incarne le génie technique, l'audace artistique et l'élégance parisienne.",
+        "image": "./images/5.avif"
+    }
+}
