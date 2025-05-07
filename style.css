@@ -5,6 +5,8 @@
     --white: #FFFFFF;
 
     --y_gap: 35px;
+    --x_padding: 10px;
+    --y_padding: 25px;
 }
 
 
@@ -97,6 +99,40 @@ body {
             font-size: 1.2rem;
         }
 
+        & #filter_sort {
+            display: flex;
+            justify-content: center;
+            gap: 5%;
+            margin-top: var(--y_gap);
+
+            & button {
+                background-color: var(--black);
+                color: var(--white);
+                padding: var(--x_padding) var(--y_padding);
+                width: max-content;
+                font-size: min(3vw, 0.9rem);
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            & #filter {
+                display: flex;
+                gap: 10px;
+                background-color: var(--black);
+                color: var(--white);
+                padding: var(--x_padding) var(--y_padding);
+                width: max-content;
+                font-size: min(3vw, 0.9rem);
+                border-radius: 5px;
+
+                & select {
+                    border-radius: 5px;
+                    min-width: 100px;
+                    color: var(--black)
+                }
+            }
+        }
+
         & #img_cont {
             display: flex;
             align-self: center;
@@ -113,7 +149,7 @@ body {
                 & button {
                     background-color: var(--black);
                     color: var(--white);
-                    padding: 10px 30px;
+                    padding: var(--x_padding) var(--y_padding);
                     width: max-content;
                     font-size: min(3vw, 0.9rem);
                     border-radius: 5px;
@@ -198,7 +234,7 @@ body {
 
         & #map_cont  {
             background-color: var(--black);
-            padding: 10px 0 var(--y_gap) 0;
+            padding-bottom: var(--y_gap);
             
             & h2 {
                 color: var(--white);

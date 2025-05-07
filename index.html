@@ -16,6 +16,14 @@
         </header>
         <main>
             <p id="main_desc">Cliquez sur un monument ou sur son bouton pour obtenir une description</p>
+            <section id="filter_sort">
+                <button id="sort_btn" onclick="sort_btn_onClick(json_data)">Trier aléatoirement</button>
+                <section id="filter">
+                    <label for="country">Filtrer par pays :</label>
+                    <select name="country" id="filter_select" placeholder="Italie">
+                    </select>
+                </section>
+            </section>
             <section id="img_cont">
                 <section class="monument">
                     <button onclick="change_content(1)">Pyramide de Gizeh</button>
@@ -24,7 +32,7 @@
                     </figure>
                 </section>
                 <section class="monument">
-                    <button onclick="change_content(2)">Machu Picchu</button> <!-- Easter Egg -->
+                    <button onclick="change_content(2)">Machu Picchu</button> <!-- Easter Egg : https://www.tiktok.com/@vadrouilleur2.0/video/7309122292498337057?lang=en -->
                     <figure>
                         <img src="./images/2.avif" alt="Machu Picchu" title="Machu Picchu" onclick="change_content(2)" class="mnmt_img">
                     </figure>
