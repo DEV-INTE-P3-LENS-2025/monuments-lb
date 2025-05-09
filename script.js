@@ -1,52 +1,43 @@
+const sort_btn = document.getElementById("sort_btn");
+const filter_select = document.getElementById("filter_select");
+
+const img_cont = document.getElementById("img_cont");
+// Card content
+const btn = document.getElementById("btn");
+
+// Desc content
+const desc_cont = document.getElementById("desc_cont");
 const mnmt_name = document.getElementById("mnmt_name");
 const city = document.getElementById("city");
 const country = document.getElementById("country");
 const desc = document.getElementById("desc");
 const iframe = document.getElementById("map");
-const sort_btn = document.getElementById("sort_btn");
-const filter_select = document.getElementById("filter_select");
 
 // change le contenu général en fonction de l'objet num dans json_data
 function change_content(num) {
     change_desc_content(num);
-    change_map(num);
-    emphasis(num);
-
-    // faire une version avec change_content(obj, num)
+    //emphasis(num);
+    desc_cont.scrollIntoView({behavior: 'smooth'});
 }
 
 fetch('./data.json')         // MODIFICATIONS POUR APRES
 .then(response => response.json())
 .then(data => {
-    json_data = Object.values(data)
-    // let json_length = json_data.length;
-    // A CHANGER MATH RANDOM * 5 PAR MATH RANDOM * json_length
-    // change_content(Math.ceil(Math.random()*json_length))
-    change_content(Math.ceil(Math.random()*5))
-    // A CHANGER MATH RANDOM * 5 PAR MATH RANDOM * json_length
+    json_data = Object.values(data);
+    change_desc_content(Math.ceil(Math.random() * json_data.length));
     init();
 })
 .catch(error => {
     console.error('Erreur lors du fetch :', error)
 });
 
+// change le contenu de la description et de la carte en fonction du monument
 function change_desc_content(num) {
     mnmt_name.innerHTML = json_data[num-1].name;
     city.innerHTML = json_data[num-1].city + ",";
     country.innerHTML = json_data[num-1].country;
     desc.innerHTML = json_data[num-1].desc;
-}
-
-// change le contenu de la carte en fonction du monument
-function change_map(num) {
-    const iframe_sources = 
-    ["https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.339301213525!2d31.132635375111906!3d29.97688346642082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584587ac8f291b%3A0x810c2f3fa2a52424!2sThe%20Great%20Pyramid%20of%20Giza!5e0!3m2!1sen!2sfr!4v1746449537853!5m2!1sen!2sfr", 
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.9873295191783!2d-72.54783702418347!3d-13.163198787170083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916d9a5f89555555%3A0x3a10370ea4a01a27!2sHistoric%20Sanctuary%20of%20Machu%20Picchu!5e0!3m2!1sen!2sfr!4v1746450138303!5m2!1sen!2sfr",
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2327.684475322767!2d13.376948940856373!3d52.51612600922271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851c655f20989%3A0x26bbfb4e84674c63!2sBrandenburg%20Gate!5e0!3m2!1sen!2sfr!4v1746450244136!5m2!1sen!2sfr",
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7886.3632216911665!2d151.2155078394323!3d-33.85739241316858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sSydney%20Opera%20House!5e0!3m2!1sen!2sfr!4v1746450300554!5m2!1sen!2sfr",
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1004.1993152049118!2d2.2948744448593037!3d48.8582704231889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1746449432933!5m2!1sen!2sfr"];
-
-    iframe.setAttribute("src", iframe_sources[num - 1]);
+    iframe.setAttribute("src", json_data[num-1].iframe);
 }
 
 // change la classe greyscale des images pour les mettre en noir et blanc
@@ -68,11 +59,11 @@ function sort_btn_onClick(obj) {
     // pour que le compteur ne dépasse pas 2
     if (sort_click_count==3) {sort_click_count=1;}
     if (sort_click_count == 1) {
-        random_sort(obj);
-        sort_btn.innerHTML = "Trier aléatoirement";
-    } else if (sort_click_count == 2) {
-        abc_sort(obj);
+        create_grid(random_sort(obj));
         sort_btn.innerHTML = "Trier par ordre alphabétique";
+    } else if (sort_click_count == 2) {
+        create_grid(abc_sort(obj));
+        sort_btn.innerHTML = "Trier aléatoirement";
     }
 }
 
@@ -139,6 +130,8 @@ function list_countries(obj) {
 
 // Initialisation
 function init() {
+    create_grid(random_sort(json_data));
+
     list_countries(json_data)     // liste les pays dans le select
         .sort((a, b) => a.localeCompare(b, 'fr', { sensitivity: 'base' }))
         .forEach((country) => {
@@ -149,14 +142,46 @@ function init() {
     });
 }
 
-// change le contenu de du container cont par le contenu de l'objet json monument*num* (bouton + img)
-function change_case(cont, num) {
-
+// crée une grid adaptée au nombre d'objets enfants dans obj et la remplit avec chacun de leur contenu
+function create_grid(obj) {
+    document.querySelectorAll(".monument").forEach((elt) => {
+        img_cont.removeChild(elt);
+    });
+    for (e in obj) {
+        const section = document.createElement("section");
+        section.classList.add("monument");
+        const btn = document.createElement("button");
+        btn.classList.add("btn");
+        obj[e].shortName != undefined ? btn.innerHTML = obj[e].shortName : btn.innerHTML = obj[e].name;
+        btn.setAttribute("onclick", "change_content("+obj[e].id+")");
+        section.appendChild(btn);
+        const figure = document.createElement("figure");
+        const img = document.createElement("img");
+        img.setAttribute("src", obj[e].image);
+        img.setAttribute("alt", obj[e].name);
+        img.setAttribute("title", obj[e].name);
+        img.setAttribute("onclick", "change_content("+obj[e].id+")");
+        img.classList.add("mnmt_img");
+        if (obj[e].id == 1) {img.id=("giza");}
+        if (obj[e].id == 9) {img.id=("christ");}
+        if (obj[e].id == 12) {img.id=("moai"); img.setAttribute("onmouseover", "easter_egg(this)");}
+        if (obj[e].id == 14) {img.id=("stonehenge");}
+        if (obj[e].id == 16) {img.id=("potala");}
+        figure.appendChild(img);
+        section.appendChild(figure);
+        img_cont.appendChild(section);
+    }
 }
 
-// order : random avec une table qui prend un nombre random et qui l'enlève de la liste
-// sort : bouton on clique pls fois pour cycle entre les choix
-// filter : input liste pays des monuments
-// liste pays : from all elements in json append pays when not in table
-// clic mnmt : conduit vers la desc + map
+// EASTER EGG
+function easter_egg(elt) {
+    elt.src = "./images/chad.jpg";
+    elt.style.objectPosition="0 0";
+}
+
+
+// TODO :
+// clic monument : conduit vers la desc + map
+// pb change_content highlight le mauvais monument
+// changer les src des iframes
 // font size : clamp or w/ media queries

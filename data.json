@@ -6,7 +6,8 @@
         "country": "Égypte",
         "city": "Gizeh",
         "desc": "Située sur le plateau de Gizeh, près du Caire, la Grande Pyramide est l'un des monuments les plus emblématiques de l'Égypte ancienne et du monde entier. Construite vers 2 560 av. J.-C. pour servir de tombeau au pharaon Khéops, elle était à l'origine haute de près de 147 mètres, ce qui en faisait la plus haute construction humaine pendant près de 4 000 ans. Composée de millions de blocs de pierre pesant chacun plusieurs tonnes, la pyramide impressionne encore aujourd'hui par sa précision et son gigantisme. Elle est entourée de deux autres pyramides majeures et du célèbre Sphinx, formant un ensemble archéologique unique qui continue de fasciner archéologues et visiteurs.",
-        "image": "./images/1.avif"
+        "image": "./images/1.avif",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.339301213525!2d31.132635375111906!3d29.97688346642082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584587ac8f291b%3A0x810c2f3fa2a52424!2sThe%20Great%20Pyramid%20of%20Giza!5e0!3m2!1sen!2sfr!4v1746449537853!5m2!1sen!2sfr"
     },
     "monument2": {
         "id": 2,
@@ -14,7 +15,8 @@
         "country": "Pérou",
         "city": "Cusco",
         "desc": "Le Machu Picchu est une ancienne cité inca perchée à environ 2 430 mètres d'altitude dans la cordillère des Andes, au Pérou. Redécouverte en 1911 par l'explorateur Hiram Bingham, cette cité mystique, longtemps restée cachée aux yeux du monde, offre un témoignage exceptionnel de la civilisation inca. On y trouve des temples, des terrasses agricoles, des fontaines et des bâtiments de pierre finement assemblés sans mortier. Son emplacement spectaculaire, entouré de montagnes escarpées et de forêts tropicales, ajoute à son mystère et à sa beauté. Le Machu Picchu est aujourd'hui classé au patrimoine mondial de l'UNESCO et considéré comme l'une des sept nouvelles merveilles du monde.",
-        "image": "./images/2.avif"
+        "image": "./images/2.avif",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3884.9873295191783!2d-72.54783702418347!3d-13.163198787170083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916d9a5f89555555%3A0x3a10370ea4a01a27!2sHistoric%20Sanctuary%20of%20Machu%20Picchu!5e0!3m2!1sen!2sfr!4v1746450138303!5m2!1sen!2sfr"
     },
     "monument3": {
         "id": 3,
@@ -22,7 +24,8 @@
         "country": "Allemagne",
         "city": "Berlin",
         "desc": "Située à Berlin, la Porte de Brandebourg est l'un des symboles les plus forts de l'histoire allemande et européenne. Érigée entre 1788 et 1791 dans un style néoclassique inspiré des monuments de la Grèce antique, elle marquait autrefois l'entrée de la ville. Couronnée par le quadrige, un char tiré par quatre chevaux, elle est devenue le théâtre de nombreux événements historiques majeurs. Pendant la guerre froide, elle se trouvait dans la zone séparant Berlin-Est et Berlin-Ouest, au pied du Mur de Berlin, et symbolisait alors la division du pays. Après la chute du Mur en 1989, elle est redevenue un puissant symbole de paix, de liberté et de réunification.",
-        "image": "./images/3.avif"
+        "image": "./images/3.avif",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2327.684475322767!2d13.376948940856373!3d52.51612600922271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a851c655f20989%3A0x26bbfb4e84674c63!2sBrandenburg%20Gate!5e0!3m2!1sen!2sfr!4v1746450244136!5m2!1sen!2sfr"
     },
     "monument4": {
         "id": 4,
@@ -30,7 +33,8 @@
         "country": "Australie",
         "city": "Sydney",
         "desc": "L'Opéra de Sydney, situé sur la baie de Sydney en Australie, est l'un des exemples les plus remarquables de l'architecture moderne du XXe siècle. Conçu par l'architecte danois Jørn Utzon, il a été inauguré en 1973 après plus d'une décennie de travaux complexes. Sa silhouette audacieuse, formée de coques blanches évoquant des voiles ou des coquillages, s'intègre harmonieusement dans le paysage maritime et attire chaque année des millions de visiteurs. L'opéra abrite plusieurs salles de spectacle et accueille une grande variété d'événements artistiques : opéras, concerts, pièces de théâtre et ballets. Classé au patrimoine mondial de l'UNESCO, il incarne la créativité, la culture et l'ouverture australiennes.",
-        "image": "./images/4.avif"
+        "image": "./images/4.avif",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7886.3632216911665!2d151.2155078394323!3d-33.85739241316858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae665e892fdd%3A0x3133f8d75a1ac251!2sSydney%20Opera%20House!5e0!3m2!1sen!2sfr!4v1746450300554!5m2!1sen!2sfr"
     },
     "monument5": {
         "id": 5,
@@ -38,55 +42,62 @@
         "country": "France",
         "city": "Paris",
         "desc": "Dominant la ville de Paris depuis plus d'un siècle, la Tour Eiffel est un symbole mondialement reconnu de la France. Construite par l'ingénieur Gustave Eiffel à l'occasion de l'Exposition universelle de 1889, elle devait initialement être démontée après l'événement, mais elle fut finalement conservée et est devenue un monument emblématique. Haute de 330 mètres avec ses antennes actuelles, elle fut longtemps la plus haute structure du monde. Entièrement composée de fer puddlé, elle étonne par sa légèreté apparente malgré sa masse imposante. Chaque année, des millions de visiteurs montent à ses différents étages pour admirer des vues spectaculaires sur la capitale, de jour comme de nuit. Elle incarne le génie technique, l'audace artistique et l'élégance parisienne.",
-        "image": "./images/5.avif"
+        "image": "./images/5.avif",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1004.1993152049118!2d2.2948744448593037!3d48.8582704231889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e2964e34e2d%3A0x8ddca9ee380ef7e0!2sEiffel%20Tower!5e0!3m2!1sen!2sfr!4v1746449432933!5m2!1sen!2sfr"
     },
     "monument6": {
         "id": 6,
         "name": "Statue de la Liberté",
         "country": "États-Unis",
         "city": "New York",
-        "desc": "Symbole de liberté et de démocratie, la Statue de la Liberté a été offerte par la France aux États-Unis en 1886...",
-        "image": "./images/6.avif"
+        "desc": "Située sur Liberty Island dans le port de New York, la Statue de la Liberté est un symbole universel de liberté et de démocratie. Offerte par la France aux États-Unis en 1886, elle fut conçue par Frédéric Auguste Bartholdi et construite avec l'aide de Gustave Eiffel. Haute de 93 mètres, elle représente une femme tenant une torche et une tablette gravée de la date de l'indépendance américaine. Classée au patrimoine mondial de l'UNESCO, elle accueille des millions de visiteurs chaque année.",
+        "image": "./images/6.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.743351084177!2d-74.04668968459304!3d40.68924927933527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty%20National%20Monument!5e0!3m2!1sen!2sfr!4v1746450400000!5m2!1sen!2sfr"
     },
     "monument7": {
         "id": 7,
         "name": "Taj Mahal",
         "country": "Inde",
         "city": "Agra",
-        "desc": "Construit au XVIIe siècle par l'empereur moghol Shah Jahan en mémoire de son épouse, le Taj Mahal est un chef-d'œuvre d'architecture moghole...",
-        "image": "./images/7.avif"
+        "desc": "Le Taj Mahal, situé à Agra en Inde, est un mausolée de marbre blanc construit entre 1631 et 1653 par l'empereur moghol Shah Jahan en mémoire de son épouse Mumtaz Mahal. Chef-d'œuvre de l'architecture moghole, il allie des éléments islamiques, persans, ottomans et indiens. Son dôme central, ses minarets symétriques et ses jardins soigneusement aménagés en font l'un des monuments les plus emblématiques au monde. Classé au patrimoine mondial de l'UNESCO, il attire des millions de visiteurs chaque année.",
+        "image": "./images/7.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5874.0726286234385!2d78.03956727693077!3d27.175149548760444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39747121d702ff6d%3A0xdd2ae4803f767dde!2sTaj%20Mahal!5e1!3m2!1sen!2sfr!4v1746798685859!5m2!1sen!2sfr"
     },
     "monument8": {
         "id": 8,
         "name": "Colisée",
         "country": "Italie",
         "city": "Rome",
-        "desc": "Le Colisée, amphithéâtre romain emblématique, a accueilli des combats de gladiateurs et spectacles publics depuis sa construction en 80 ap. J.-C...",
-        "image": "./images/8.avif"
+        "desc": "Le Colisée, situé au cœur de Rome, est un amphithéâtre emblématique de l'Empire romain. Construit entre 70 et 80 après J.-C., il pouvait accueillir jusqu'à 50 000 spectateurs pour des combats de gladiateurs, des chasses d'animaux et d'autres spectacles publics. Avec ses arches imposantes et son ingénierie avancée, il témoigne de la grandeur architecturale romaine. Malgré les siècles, il reste un symbole puissant de la Rome antique et attire des millions de visiteurs chaque année.",
+        "image": "./images/8.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19087.553476189925!2d12.484285975558342!3d41.89067480354393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f61b6532013ad%3A0x28f1c82e908503c4!2sColosseum!5e1!3m2!1sen!2sfr!4v1746798747536!5m2!1sen!2sfr"
     },
     "monument9": {
         "id": 9,
         "name": "Christ Rédempteur",
         "country": "Brésil",
         "city": "Rio de Janeiro",
-        "desc": "Cette immense statue du Christ, perchée sur le mont Corcovado, est l'un des symboles du Brésil et surplombe majestueusement la baie de Rio...",
-        "image": "./images/9.avif"
+        "desc": "Le Christ Rédempteur, situé au sommet du mont Corcovado à Rio de Janeiro, est une statue monumentale de Jésus-Christ. Inaugurée en 1931, elle mesure 30 mètres de haut, sans compter son piédestal de 8 mètres, et ses bras s'étendent sur 28 mètres. Symbole du christianisme et de la ville de Rio, elle offre une vue panoramique spectaculaire sur la baie et les environs. Classée parmi les sept nouvelles merveilles du monde, elle attire des millions de visiteurs chaque année.",
+        "image": "./images/9.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6046.716012154161!2d-43.21306212305377!3d-22.951915979223376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997fd5984aa13f%3A0x9dc984d7019502de!2sChrist%20the%20Redeemer!5e1!3m2!1sen!2sfr!4v1746792550055!5m2!1sen!2sfr"
     },
     "monument10": {
         "id": 10,
         "name": "Château de Neuschwanstein",
         "country": "Allemagne",
         "city": "Schwangau",
-        "desc": "Inspiré des contes de fées, ce château bavarois construit au XIXe siècle par Louis II est l'un des plus célèbres au monde...",
-        "image": "./images/10.avif"
+        "desc": "Perché sur une colline en Bavière, le château de Neuschwanstein est un chef-d'œuvre du XIXe siècle commandé par le roi Louis II de Bavière. Inspiré des contes de fées et des opéras de Wagner, il présente une architecture romantique avec des tours élancées et des intérieurs richement décorés. Bien que jamais achevé, il est devenu l'un des châteaux les plus célèbres au monde, inspirant notamment le château de la Belle au bois dormant de Disney. Chaque année, des millions de visiteurs viennent admirer sa beauté et son cadre pittoresque.",
+        "image": "./images/10.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4455.9881043329815!2d10.74722547742015!3d47.55757759135985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479cf7cac44ea35d%3A0xc8a6866bd39dbba3!2sNeuschwanstein%20Castle!5e1!3m2!1sen!2sfr!4v1746798805328!5m2!1sen!2sfr"
     },
     "monument11": {
         "id": 11,
         "name": "Angkor Wat",
         "country": "Cambodge",
         "city": "Siem Reap",
-        "desc": "Angkor Wat est le plus vaste complexe religieux du monde et un symbole national du Cambodge, construit au XIIe siècle par l'empire khmer...",
-        "image": "./images/11.avif"
+        "desc": "Angkor Wat est le plus vaste complexe religieux du monde, construit au XIIe siècle par l'empire khmer. Ce site emblématique, situé au cœur d'une forêt tropicale, témoigne de la grandeur de la civilisation khmère. Les temples majestueux, ornés de sculptures détaillées, reflètent l'ingéniosité architecturale et la spiritualité profonde de cette époque. Classé au patrimoine mondial de l'UNESCO, Angkor Wat attire des millions de visiteurs chaque année.",
+        "image": "./images/11.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6422.848731339611!2d103.86441077676928!3d13.41247450505581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3110168aea9a272d%3A0x3eaba81157b0418d!2sAngkor%20Wat!5e1!3m2!1sen!2sfr!4v1746798841108!5m2!1sen!2sfr"
     },
     "monument12": {
         "id": 12,
@@ -94,71 +105,81 @@
         "shortName": "Moai",
         "country": "Chili",
         "city": "Île de Pâques",
-        "desc": "Les Moai sont d'énigmatiques statues monumentales sculptées par le peuple Rapa Nui, qui veillent sur cette île isolée du Pacifique Sud...",
-        "image": "./images/12.avif"
+        "desc": "Les Moai sont d'énigmatiques statues monumentales sculptées par le peuple Rapa Nui entre le XIIIe et le XVIe siècle. Ces figures imposantes, aux visages allongés et aux regards tournés vers l'intérieur des terres, sont dispersées sur l'île de Pâques, une île isolée du Pacifique Sud. Leur signification exacte reste un mystère, mais elles sont considérées comme des symboles ancestraux de pouvoir et de spiritualité. Les Moai continuent de fasciner chercheurs et visiteurs du monde entier.",
+        "image": "./images/12.jpg",
+        "image_hover" : "./images/chad.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5016.547642942998!2d-109.28703076532486!3d-27.126223595263802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9947f1a65cd3a4eb%3A0x8b29ddee5ac4da48!2sMoai%20Tukuturi!5e1!3m2!1sen!2sfr!4v1746798886353!5m2!1sen!2sfr"
     },
     "monument13": {
         "id": 13,
         "name": "Alhambra",
         "country": "Espagne",
         "city": "Grenade",
-        "desc": "L'Alhambra est un palais fortifié andalou aux influences islamiques, réputé pour la finesse de son architecture et ses jardins splendides...",
-        "image": "./images/13.avif"
+        "desc": "L'Alhambra est un palais fortifié andalou situé à Grenade, réputé pour la finesse de son architecture islamique et ses jardins splendides. Construit principalement au XIIIe siècle par les Nasrides, il présente une combinaison unique de cours intérieures, de fontaines et de décorations en stuc finement ciselées. Ce chef-d'œuvre de l'art mauresque est classé au patrimoine mondial de l'UNESCO et attire des millions de visiteurs chaque année.",
+        "image": "./images/13.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.9623838714947!2d-3.589594837255299!3d37.176304138260974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd71fcb7977fb93b%3A0x808dd1ef1221a27f!2sAlhambra!5e1!3m2!1sen!2sfr!4v1746798927013!5m2!1sen!2sfr"
     },
     "monument14": {
         "id": 14,
         "name": "Stonehenge",
         "country": "Royaume-Uni",
         "city": "Wiltshire",
-        "desc": "Mystérieux cercle de pierres dressées datant du Néolithique, Stonehenge reste une énigme archéologique fascinante...",
-        "image": "./images/14.avif"
+        "desc": "Stonehenge est un mystérieux cercle de pierres dressées datant du Néolithique, situé dans le comté de Wiltshire en Angleterre. Composé de mégalithes pesant plusieurs tonnes, cet ensemble mégalithique est aligné avec les solstices, suggérant une fonction astronomique ou rituelle. Malgré de nombreuses études, sa signification exacte reste inconnue, ce qui en fait l'un des sites archéologiques les plus fascinants d'Europe.",
+        "image": "./images/14.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4139.324296030835!2d-1.8287899224653665!3d51.17888533464811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4873e63b850af611%3A0x979170e2bcd3d2dd!2sStonehenge!5e1!3m2!1sen!2sfr!4v1746799007347!5m2!1sen!2sfr"
     },
     "monument15": {
         "id": 15,
         "name": "Mont-Saint-Michel",
         "country": "France",
         "city": "Normandie",
-        "desc": "Le Mont-Saint-Michel est une abbaye médiévale bâtie sur un îlot rocheux, accessible à marée basse, et un site majeur de pèlerinage...",
-        "image": "./images/15.avif"
+        "desc": "Le Mont-Saint-Michel est une abbaye médiévale bâtie sur un îlot rocheux, accessible à marée basse, située en Normandie. Fondée au VIIIe siècle, elle est dédiée à l'archange Saint Michel et présente une architecture gothique remarquable. Entourée de remparts, l'abbaye domine un village pittoresque et offre des vues spectaculaires sur la baie. Ce site emblématique est classé au patrimoine mondial de l'UNESCO.",
+        "image": "./images/15.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1574.637339078305!2d-1.5111746393653498!3d48.63601741880948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ea92183c4dc1d%3A0x3516b3d42512c1e1!2sMont-Saint-Michel%20Abbey!5e1!3m2!1sen!2sfr!4v1746799049754!5m2!1sen!2sfr"
     },
     "monument16": {
         "id": 16,
         "name": "Palais de Potala",
         "country": "Chine",
         "city": "Lhassa",
-        "desc": "Ancienne résidence du Dalaï-lama, le palais de Potala surplombe majestueusement Lhassa et symbolise le bouddhisme tibétain...",
-        "image": "./images/16.avif"
+        "desc": "Ancienne résidence du Dalaï-lama, le palais de Potala surplombe majestueusement Lhassa et symbolise le bouddhisme tibétain. Construit au XVIIe siècle, ce complexe imposant allie architecture religieuse et administrative, avec ses murs blancs et rouges caractéristiques. Il abrite de nombreuses chapelles, tombes et œuvres d'art bouddhistes. Le Potala est inscrit au patrimoine mondial de l'UNESCO.",
+        "image": "./images/16.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5738.06212631076!2d91.11600427697503!3d29.655498836891557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3761317244846eab%3A0x4ae80d857ec10c19!2sPotala%20Palace!5e1!3m2!1sen!2sfr!4v1746799078381!5m2!1sen!2sfr"
     },
     "monument17": {
         "id": 17,
         "name": "Petra",
         "country": "Jordanie",
         "city": "Wadi Musa",
-        "desc": "Petra, ancienne cité nabatéenne taillée dans la roche rose, est célèbre pour son trésor, son théâtre et ses tombeaux monumentaux...",
-        "image": "./images/17.avif"
+        "desc": "Petra, ancienne cité nabatéenne taillée dans la roche rose, est célèbre pour son trésor, son théâtre et ses tombeaux monumentaux. Fondée vers le VIe siècle av. J.-C., elle fut un important carrefour commercial. Redécouverte au XIXe siècle, Petra est aujourd'hui un site archéologique majeur, classé au patrimoine mondial de l'UNESCO, attirant des visiteurs du monde entier.",
+        "image": "./images/17.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5699.294755390333!2d35.44178727698778!3d30.328459005055958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15016ef1703b6071%3A0x199bf908679a2291!2sPetra!5e1!3m2!1sen!2sfr!4v1746799110329!5m2!1sen!2sfr"
     },
     "monument18": {
         "id": 18,
         "name": "Cathédrale Saint-Basile",
         "country": "Russie",
         "city": "Moscou",
-        "desc": "Avec ses coupoles colorées et sa silhouette unique, la cathédrale Saint-Basile trône fièrement sur la place Rouge de Moscou...",
-        "image": "./images/18.avif"
+        "desc": "La cathédrale Saint-Basile, située sur la célèbre place Rouge à Moscou, est l’un des monuments les plus emblématiques de la Russie. Construite au XVIe siècle sur ordre d’Ivan le Terrible pour commémorer la prise de Kazan, elle se distingue par ses dômes multicolores en forme de bulbes et son architecture unique mêlant les styles byzantin, russe médiéval et oriental. Véritable symbole du pays, elle attire des millions de visiteurs chaque année et est inscrite au patrimoine mondial de l’UNESCO.",
+        "image": "./images/18.jpg",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2240.561848793986!2d37.62039331605206!3d55.75252598055395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a5d79a732fd%3A0x98b3fa1c67fce1c3!2sCath%C3%A9drale%20Saint-Basile!5e0!3m2!1sfr!2sfr!4v1746480000000!5m2!1sfr!2sfr"
     },
     "monument19": {
         "id": 19,
         "name": "Burj Khalifa",
         "country": "Émirats Arabes Unis",
         "city": "Dubaï",
-        "desc": "Le Burj Khalifa est la plus haute tour du monde, culminant à plus de 828 mètres, symbole de la modernité et de la démesure de Dubaï...",
-        "image": "./images/19.avif"
+        "desc": "Le Burj Khalifa est actuellement le plus haut gratte-ciel du monde, atteignant une hauteur vertigineuse de 828 mètres. Inauguré en 2010 à Dubaï, cet édifice emblématique incarne l’ambition et la démesure des Émirats arabes unis. Conçu par l’architecte Adrian Smith, il combine des éléments de design islamique traditionnel avec une ingénierie de pointe. Il abrite des bureaux, des résidences de luxe, un hôtel Armani et une plateforme d'observation offrant une vue imprenable sur le désert et la ville futuriste de Dubaï.",
+        "image": "./images/19.avif",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3609.8913311916353!2d55.27218771448069!3d25.19719798389816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f428b9f574be3%3A0xf0bbafdbdb9e17e5!2sBurj%20Khalifa!5e0!3m2!1sfr!2sfr!4v1746480000000!5m2!1sfr!2sfr"
     },
     "monument20": {
         "id": 20,
         "name": "Sagrada Família",
         "country": "Espagne",
         "city": "Barcelone",
-        "desc": "Chef-d'œuvre inachevé de l'architecte Antoni Gaudí, la Sagrada Família est une basilique unique alliant foi, nature et imagination architecturale...",
-        "image": "./images/20.avif"
+        "desc": "La Sagrada Família est une basilique catholique située à Barcelone, célèbre pour son architecture saisissante conçue par Antoni Gaudí. Commencée en 1882, sa construction se poursuit encore aujourd’hui, faisant d’elle l’un des projets architecturaux les plus longs de l’histoire moderne. Son style mêle gothique et modernisme catalan, avec des façades richement décorées, des colonnes inspirées de la nature et des jeux de lumière colorée à travers ses vitraux. Classée au patrimoine mondial de l’UNESCO, elle est un symbole fort de la ville et de la culture catalane.",
+        "image": "./images/20.avif",
+        "iframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2993.1317196842475!2d2.173403815422263!3d41.40362957926292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2f08c064091%3A0x151f89f1913cb110!2sSagrada%20Fam%C3%ADlia!5e0!3m2!1sfr!2sfr!4v1746480000000!5m2!1sfr!2sfr"
     }
 }

@@ -24,6 +24,7 @@
 
 html,
 body {
+    scroll-behavior: smooth;
     height: 100%;
 }
 
@@ -135,10 +136,12 @@ body {
 
         & #img_cont {
             display: flex;
+            flex-wrap: wrap;
             align-self: center;
             width: 95%;
             margin: var(--y_gap) 0;
             gap: 2%;
+            row-gap: var(--y_gap);
 
             & .monument {
                 display: flex;
@@ -184,8 +187,24 @@ body {
                         transition: all 0.3s ease-in-out;
                     }
 
-                    & .ob_pos {
+                    & #giza {
                         object-position: 0 3vw;
+                    }
+
+                    & #christ {
+                        object-position: 0 2.5vw;
+                    }
+
+                    & #moai {
+                        object-position: 0 2.5vw;
+                    }
+
+                    & #stonehenge {
+                        object-position: 0 -3vw;
+                    }
+
+                    & #potala {
+                        object-position: 0 6vw;
                     }
 
                     & .greyscale {
@@ -244,7 +263,7 @@ body {
 
             & iframe {
                 width: 90%;
-                height: 600px
+                height: 800px
             }
         }
     }
