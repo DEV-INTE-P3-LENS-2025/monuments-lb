@@ -8,7 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
     </head>
     <body>
         <header>
@@ -18,12 +18,13 @@
             <p id="main_desc">Cliquez sur un monument ou sur son bouton pour obtenir une description</p>
             <section id="filter_sort">
                 <button id="sort_btn" onclick="sort_btn_onClick(json_data)">Trier par ordre alphabétique</button>
-                <section id="filter">
+                <form id="filter">
                     <label for="country">Filtrer par pays :</label>
                     <select name="country" id="filter_select" placeholder="Italie">
                         <option value="default">--Choisir un pays--</option>
                     </select>
-                </section>
+                    <input type="button" id="submit" onclick="create_grid(country_filter(json_data))">
+                </form>
             </section>
             <section id="img_cont"></section>  <!-- Main Container -->
             <section id="desc_cont">
@@ -36,7 +37,7 @@
             </section>
             <section id="map_cont">
                 <h2>Emplacement :</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2647.339301213525!2d31.132635375111906!3d29.97688346642082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584587ac8f291b%3A0x810c2f3fa2a52424!2sThe%20Great%20Pyramid%20of%20Giza!5e0!3m2!1sen!2sfr!4v1746449537853!5m2!1sen!2sfr" frameborder="0" id="map"></iframe>
+                <iframe frameborder="0" id="map"></iframe>
             </section>
         </main>    
         <script type="text/javascript" src="script.js"></script>

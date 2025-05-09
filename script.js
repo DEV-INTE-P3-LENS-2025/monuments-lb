@@ -109,6 +109,7 @@ function abc_sort(obj) {
 function country_filter(obj) {
     let country_filtered_objs = [];
     const country = filter_select.value;
+    if (country == "default") {return json_data;}
     obj.forEach((elt) => {
         if (elt.country == country) {
             country_filtered_objs.push(elt);

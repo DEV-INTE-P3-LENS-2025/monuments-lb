@@ -118,6 +118,7 @@ body {
 
             & #filter {
                 display: flex;
+                align-items: center;
                 gap: 10px;
                 background-color: var(--black);
                 color: var(--white);
@@ -130,6 +131,16 @@ body {
                     border-radius: 5px;
                     min-width: 100px;
                     color: var(--black)
+                }
+
+                & #submit {
+                    background-color: var(--black);
+                    background-image: url("./images/filter.svg");
+                    background-size: contain;
+                    width: 28px;
+                    color: var(--white);
+                    border-radius: 5px;
+                    cursor: pointer;
                 }
             }
         }
